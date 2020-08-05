@@ -17,7 +17,6 @@ cv2.waitKey()
 cv2.destroyAllWindows()
 
 
-
 # 영상 복사
 img1 = cv2.imread('.\\video effect.\HappyFish.jpg')
 
