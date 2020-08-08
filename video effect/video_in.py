@@ -3,7 +3,7 @@ import cv2
 
 
 # 비디오 파일 열기
-cap = cv2.VideoCapture('video1.mp4')
+cap = cv2.VideoCapture('.\\video effect.\\video1.mp4')
 
 if not cap.isOpened():
     print("Video open failed!")
