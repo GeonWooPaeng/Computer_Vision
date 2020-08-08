@@ -36,7 +36,7 @@ while True:
     if not ret:
         break
 
-    inversed = ~frame #frame을 반전
+    # inversed = ~frame #frame을 반전
 
     # gray_scale이라 저장이 안된다. 그래서 color로 바꿔줘야 한다.
     edge = cv2.Canny(frame, 50, 150)
@@ -44,7 +44,7 @@ while True:
 
     #영상 데이터만 저장한다(소리 X)
     # out.write(inversed) 
-    out.write(edge)
+    out.write(edge_color)
 
     cv2.imshow('frame', frame)
     # cv2.imshow('inversed', inversed)
