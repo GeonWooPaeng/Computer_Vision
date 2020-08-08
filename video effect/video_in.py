@@ -14,6 +14,8 @@ print('Frame width:', int(cap.get(cv2.CAP_PROP_FRAME_WIDTH)))
 print('Frame height:', int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT)))
 print('Frame count:', int(cap.get(cv2.CAP_PROP_FRAME_COUNT)))
 
+# FPS
+# => 초당 frame 수 (현재 frame에서 다음 frame과의 시간 간격)
 fps = cap.get(cv2.CAP_PROP_FPS)
 print('FPS:', fps)
 
@@ -31,7 +33,7 @@ while True:
     cv2.imshow('frame', frame)
     cv2.imshow('inversed', inversed)
 
-    if cv2.waitKey(delay) == 27:
+    if cv2.waitKey(delay) == 27: #ESC
         break
 
 cap.release()
