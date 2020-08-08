@@ -1,6 +1,6 @@
+import numpy as np 
 import sys
 import cv2
-
 
 
 cap = cv2.VideoCapture(0) #카메라 open하기
@@ -43,11 +43,12 @@ while True:
     edge_color = cv2.cvtColor(edge, cv2.COLOR_GRAY2BGR) #gray => color로 바꿔주기
 
     #영상 데이터만 저장한다(소리 X)
-    out.write(inversed) 
-    # out.write(edge)
+    # out.write(inversed) 
+    out.write(edge)
 
     cv2.imshow('frame', frame)
-    cv2.imshow('inversed', inversed)
+    # cv2.imshow('inversed', inversed)
+    cv2.imshow('edge_color',edge_color)
 
     if cv2.waitKey(delay) == 27:
         break
