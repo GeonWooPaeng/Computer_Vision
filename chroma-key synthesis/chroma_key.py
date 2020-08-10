@@ -1,3 +1,6 @@
+# 크로마키 합성 
+# - 녹색 또는 파란색 배경에서 촬영한 영상에 다른 배경 영상을 합성하는 기술
+
 import sys
 import numpy as np
 import cv2
