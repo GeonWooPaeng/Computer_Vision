@@ -3,7 +3,7 @@
 1 image_slide_show
 
 2 video_effect 
-> Animation effect added between two videos
+- Animation effect added between two videos
 
 3 chroma-key_synthesis
 
