@@ -8,6 +8,7 @@
 
 3 chroma-key_synthesis
 - before
+
 ![2](https://user-images.githubusercontent.com/53526987/94358621-5e039e80-00dd-11eb-8d52-d72f5ca35a39.PNG)
 
 - after
